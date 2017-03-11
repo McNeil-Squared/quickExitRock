@@ -1,0 +1,29 @@
+{
+  "name": "quickExitRock",
+  "version": "1.0.0",
+  "description": "website for Quick Exit",
+  "engines": {
+    "node": "7.2.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngieVisnesky/QuickExit.git"
+  },
+  "author": "McNeil Squared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngieVisnesky/QuickExit/issues"
+  },
+  "homepage": "https://github.com/AngieVisnesky/QuickExit#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "nodemailer": "^2.7.2",
+    "pug": "^2.0.0-beta11"
+  }
+}
